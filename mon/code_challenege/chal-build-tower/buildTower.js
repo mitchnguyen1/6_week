@@ -32,6 +32,8 @@
 //5=9 2 space=/2 per side
 //6=11
 
+//stars = (n*2)-1
+//spaces per side=(bottom # of stars - current stars)/2
 const builtTower = n => {
     let ans = []
     let bottom = (n*2)-1
